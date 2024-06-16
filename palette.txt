@@ -1,0 +1,36 @@
+/* Coolors Exported Palette - https://coolors.co/c5a917-36b477-2ebcc6-024499-0e3857-f1f3e5 */
+
+- Tailwind
+
+{ 'old_gold': { DEFAULT: '#C5A917', 100: '#272105', 200: '#4f4309', 300: '#76640e', 400: '#9d8612', 500: '#c5a917', 600: '#e7c82f', 700: '#edd663', 800: '#f3e397', 900: '#f9f1cb' }, 'jade': { DEFAULT: '#36B477', 100: '#0b2418', 200: '#164830', 300: '#206c48', 400: '#2b9160', 500: '#36b477', 600: '#55cc93', 700: '#80d9ae', 800: '#aae6c9', 900: '#d5f2e4' }, 'robin_egg_blue': { DEFAULT: '#2EBCC6', 100: '#092628', 200: '#134b4f', 300: '#1c7177', 400: '#25979f', 500: '#2ebcc6', 600: '#53ced7', 700: '#7edae1', 800: '#a9e6eb', 900: '#d4f3f5' }, 'cobalt_blue': { DEFAULT: '#024499', 100: '#000d1e', 200: '#011b3c', 300: '#01285a', 400: '#023579', 500: '#024499', 600: '#0362dd', 700: '#2c86fc', 800: '#72aefd', 900: '#b9d7fe' }, 'prussian_blue': { DEFAULT: '#0E3857', 100: '#030b12', 200: '#061723', 300: '#092235', 400: '#0b2e46', 500: '#0e3857', 600: '#1a679e', 700: '#2c93dd', 800: '#73b7e8', 900: '#b9dbf4' }, 'ivory': { DEFAULT: '#F1F3E5', 100: '#3c411e', 200: '#77823c', 300: '#abb865', 400: '#cfd6a6', 500: '#f1f3e5', 600: '#f4f6eb', 700: '#f7f8f0', 800: '#fafbf5', 900: '#fcfdfa' } }
+
+- CSV
+
+C5A917,36B477,2EBCC6,024499,0E3857,F1F3E5
+
+- With #
+
+#C5A917, #36B477, #2EBCC6, #024499, #0E3857, #F1F3E5
+
+- Array
+
+["C5A917","36B477","2EBCC6","024499","0E3857","F1F3E5"]
+
+- Object
+
+{"Old gold":"C5A917","Jade":"36B477","Robin egg blue":"2EBCC6","Cobalt blue":"024499","Prussian blue":"0E3857","Ivory":"F1F3E5"}
+
+- Extended Array
+
+[{"name":"Old gold","hex":"C5A917","rgb":[197,169,23],"cmyk":[0,14,88,23],"hsb":[50,88,77],"hsl":[50,79,43],"lab":[70,-3,69]},{"name":"Jade","hex":"36B477","rgb":[54,180,119],"cmyk":[70,0,34,29],"hsb":[151,70,71],"hsl":[151,54,46],"lab":[66,-48,21]},{"name":"Robin egg blue","hex":"2EBCC6","rgb":[46,188,198],"cmyk":[77,5,0,22],"hsb":[184,77,78],"hsl":[184,62,48],"lab":[70,-33,-16]},{"name":"Cobalt blue","hex":"024499","rgb":[2,68,153],"cmyk":[99,56,0,40],"hsb":[214,99,60],"hsl":[214,97,30],"lab":[31,17,-51]},{"name":"Prussian blue","hex":"0E3857","rgb":[14,56,87],"cmyk":[84,36,0,66],"hsb":[205,84,34],"hsl":[205,72,20],"lab":[22,-2,-23]},{"name":"Ivory","hex":"F1F3E5","rgb":[241,243,229],"cmyk":[1,0,6,5],"hsb":[69,6,95],"hsl":[69,37,93],"lab":[95,-3,7]}]
+
+- XML
+
+<palette>
+  <color name="Old gold" hex="C5A917" r="197" g="169" b="23" />
+  <color name="Jade" hex="36B477" r="54" g="180" b="119" />
+  <color name="Robin egg blue" hex="2EBCC6" r="46" g="188" b="198" />
+  <color name="Cobalt blue" hex="024499" r="2" g="68" b="153" />
+  <color name="Prussian blue" hex="0E3857" r="14" g="56" b="87" />
+  <color name="Ivory" hex="F1F3E5" r="241" g="243" b="229" />
+</palette>
