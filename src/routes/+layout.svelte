@@ -23,9 +23,5 @@
 	});
 </script>
 
-<header>
-	<nav>
-		<a href="/">Home</a>
-	</nav>
-</header>
+
 <slot class="bg-prussian-blue" />

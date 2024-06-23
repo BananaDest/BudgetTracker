@@ -11,29 +11,14 @@
 		if (!evt.target) return;
 
 		const form = evt.target as HTMLFormElement;
-		const reason = {
-			created_at: new Date().toISOString(),
-			description: (new FormData(form).get('description') ?? '') as string,
-			active: true
-		};
-		if (!reason) return;
-
-		const { data: reasonData = [], error: reasonError } = await supabase
-			.from('Reason')
-			.insert(reason)
-			.select();
-
-		if (reasonError) console.error(reasonError);
-
 		const transaction = {
 			id_user: user?.id,
 			quantity: (new FormData(form).get('quantity') ?? 0) as number,
 			created_at: new Date().toISOString(),
-			//@ts-expect-error reasonData can be null but never will be
-			id_reason: reasonData[0]?.id,
 			id_budget_type: (new FormData(form).get('budget_type') ?? '') as string,
 			active: true,
-			income_type: (new FormData(form).get('transaction_type') ?? '') as string
+			income_type: (new FormData(form).get('transaction_type') ?? '') as string,
+			description: (new FormData(form).get('description') ?? '') as string
 		};
 
 		if (!transaction) return;
@@ -61,14 +46,14 @@
 			<select name="budget_type" class="select select-bordered select-accent w-full my-2">
 				<option disabled selected>Tipo de transacción</option>
 				{#each budgetTypes as budget}
-				 <!-- content here -->
-					<option value="{budget.id}">{budget.description}</option>
+					<!-- content here -->
+					<option value={budget.id}>{budget.description}</option>
 				{/each}
 			</select>
 		</label>
 		<label class="form-control">
 			Descripción
-			<input name="transaction" type="text" class="input input-bordered input-accent w-full my-2" />
+			<input name="description" type="text" class="input input-bordered input-accent w-full my-2" />
 		</label>
 		<label class="form-control">
 			Cantidad
